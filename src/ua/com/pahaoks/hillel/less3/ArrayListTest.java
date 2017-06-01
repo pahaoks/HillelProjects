@@ -23,5 +23,4 @@ public class ArrayListTest implements Runnable {
             System.out.println(el);
         }
     }
-    
 }
