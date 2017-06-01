@@ -22,5 +22,7 @@ public class ArrayListTest implements Runnable {
         for (String el : arrayList) {
             System.out.println(el);
         }
+        
     }
+    
 }
