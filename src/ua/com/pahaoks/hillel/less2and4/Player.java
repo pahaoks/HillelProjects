@@ -22,8 +22,9 @@ public class Player {
         System.out.println("Инициализируем плеер: " + playable.GetName());
     }
     
-    public Player() {
-        
+    public Player(String name) {
+        this.name = name;
+        System.out.println("Инициализируем плеер: " + name);
     }
     
     public void Play() {

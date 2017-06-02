@@ -11,13 +11,8 @@ package ua.com.pahaoks.hillel.less2and4;
  */
 public class DVDPlayer extends Player implements IPlayable {
     
-    @Override
-    public void Play() {
-        System.out.println("DVD is playing good film");
-    }
-    
     public DVDPlayer() {
-        this.name = "DVD";
+        super("DVD");
     }
 
     @Override

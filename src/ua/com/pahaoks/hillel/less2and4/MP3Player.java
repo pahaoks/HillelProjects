@@ -10,14 +10,9 @@ package ua.com.pahaoks.hillel.less2and4;
  * @author lutsishinpa
  */
 public class MP3Player extends Player implements IPlayable {
-
-    @Override
-    public void Play() {
-        System.out.println("MP3 is playing good music");
-    }
     
     public MP3Player() {
-        this.name = "MP3";
+        super("MP3");
     }
 
     @Override
