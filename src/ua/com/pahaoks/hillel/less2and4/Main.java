@@ -21,11 +21,6 @@ public class Main {
         
         playable = new MP3Player();
         playable.Play();
-        
-        new Player(new DVDPlayer()).Play();
-        new Player(new MP3Player()).Play();
-        
-        
     }
     
 }
