@@ -13,7 +13,7 @@ public class PreviousButton extends AbstractButton {
 
     @Override
     public void doAction() {
-
+        System.out.println("Включаем предыдущую запись...");
     }
     
 }

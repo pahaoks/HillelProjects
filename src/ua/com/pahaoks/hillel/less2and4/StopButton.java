@@ -13,6 +13,6 @@ public class StopButton extends AbstractButton {
 
     @Override
     public void doAction() {
+        System.out.println("Останавливаем проигрывание...");
     }
-    
 }

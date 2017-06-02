@@ -13,7 +13,7 @@ public class PlayButton extends AbstractButton {
 
     @Override
     public void doAction() {
-        
+        System.out.println("Запись проигрывается...");
     }
     
 }
