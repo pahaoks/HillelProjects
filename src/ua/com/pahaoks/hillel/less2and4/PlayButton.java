@@ -3,13 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ua.com.pahaoks.hillel.less2;
+package ua.com.pahaoks.hillel.less2and4;
 
 /**
  *
  * @author lutsishinpa
  */
-public interface IPlayable {
-    void Play();
-    String GetName();
+public class PlayButton extends AbstractButton {
+
+    @Override
+    public void doAction() {
+        
+    }
+    
 }

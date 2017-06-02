@@ -3,21 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ua.com.pahaoks.hillel.less2;
+package ua.com.pahaoks.hillel.less2and4;
 
 /**
  *
  * @author lutsishinpa
  */
-public class DVDPlayer extends Player implements IPlayable {
-    
+public class MP3Player extends Player implements IPlayable {
+
     @Override
     public void Play() {
-        System.out.println("DVD is playing good film");
+        System.out.println("MP3 is playing good music");
     }
     
-    public DVDPlayer() {
-        this.name = "DVD";
+    public MP3Player() {
+        this.name = "MP3";
     }
 
     @Override

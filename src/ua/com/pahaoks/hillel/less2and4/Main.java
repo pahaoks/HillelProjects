@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ua.com.pahaoks.hillel.less2;
+package ua.com.pahaoks.hillel.less2and4;
 
 /**
  *
@@ -24,6 +24,8 @@ public class Main {
         
         new Player(new DVDPlayer()).Play();
         new Player(new MP3Player()).Play();
+        
+        
     }
     
 }
