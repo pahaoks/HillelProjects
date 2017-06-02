@@ -6,7 +6,7 @@
 package ua.com.pahaoks.hillel.less2and4;
 
 /**
- *
+ * 
  * @author lutsishinpa
  */
 public abstract class AbstractButton implements IButton {
